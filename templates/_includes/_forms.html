@@ -1,0 +1,15 @@
+{% comment %} Пример использования:
+{% include "_includes/_forms.html" with form=form submit_label="Сохранить" %}
+{% endcomment %}
+
+{% if form.non_field_errors %}
+  <div class="errors">
+    {{ form.non_field_errors }}
+  </div>
+{% endif %}
+
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">{{ submit_label|default:"Отправить" }}</button>
+</form>

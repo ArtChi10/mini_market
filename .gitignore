@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtualenv
+.venv/
+venv/
+
+# Local DB (если используешь SQLite локально)
+*.sqlite3
+
+# Django collectstatic и локальные медиа (их НЕ пушим)
+staticfiles/
+media/
+
+# Секреты/локальные переменные
+.env
+.env.*
+
+# IDE/OS мусор
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
+
+# Тесты/кеши
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node (если вдруг есть фронт-сборка)
+node_modules/

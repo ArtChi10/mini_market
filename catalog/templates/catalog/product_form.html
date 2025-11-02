@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Новый товар — {{ block.super }}{% endblock %}
+{% block content %}
+<h1>Предложить новый товар</h1>
+<form method="post" enctype="multipart/form-data">
+  {% csrf_token %}
+  {{ form.as_p }}
+  <button type="submit">Отправить на модерацию</button>
+</form>
+<p><a href="{% url 'catalog:my' %}">Мои заявки →</a></p>
+{% endblock %}

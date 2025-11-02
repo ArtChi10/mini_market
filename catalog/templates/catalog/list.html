@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{% block title %}Каталог — {{ block.super }}{% endblock %}
+
+{% block content %}
+<h1>Каталог</h1>
+
+<form method="get" style="margin-bottom:10px;">
+  <select name="category" onchange="this.form.submit()">
+    <option value="">Все категории</option>
+    {% for c in categories %}
+      <option value="{{ c.slug }}" {% if curr_category == c.slug %}selected{% endif %}>{{ c.name }}</option>
+    {% endfor %}
+  </select>
+  <input type="text" name="q" value="{{ q }}" placeholder="Поиск по названию">
+  <button type="submit">Найти</button>
+</form>
+
+<ul>
+  {% for p in object_list %}
+    <li style="display:flex;align-items:center;gap:10px;margin:8px 0;">
+      <a href="{{ p.get_absolute_url }}" style="display:inline-block">
+        {% if p.image %}
+          <img src="{{ p.image.url }}" alt="{{ p.title }}"
+               style="width:96px;height:96px;object-fit:cover;border-radius:10px;">
+        {% else %}
+          <img src="/media/products/product_placeholder.svg" alt="{{ p.title }}"
+               style="width:96px;height:96px;object-fit:cover;border-radius:10px;">
+        {% endif %}
+      </a>
+      <div>
+        <a href="{{ p.get_absolute_url }}">{{ p.title }}</a>
+        — {{ p.price }} мон. ({{ p.category.name }})
+      </div>
+    </li>
+  {% empty %}
+    <li>Товаров пока нет.</li>
+  {% endfor %}
+</ul>
+
+{% include "_includes/_pagination.html" %}
+{% endblock %}

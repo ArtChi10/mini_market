@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+{% block title %}Вход — {{ block.super }}{% endblock %}
+{% block content %}
+<h1>Вход</h1>
+{% include "_includes/_forms.html" with form=form submit_label="Войти" %}
+{% endblock %}

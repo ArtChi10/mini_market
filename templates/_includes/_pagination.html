@@ -1,0 +1,17 @@
+{% if page_obj and page_obj.paginator.num_pages > 1 %}
+<nav class="pagination">
+  {% if page_obj.has_previous %}
+    <a href="?page={{ page_obj.previous_page_number }}">&laquo; Назад</a>
+  {% else %}
+    <span class="disabled">&laquo; Назад</span>
+  {% endif %}
+
+  <span class="curr">Стр. {{ page_obj.number }} из {{ page_obj.paginator.num_pages }}</span>
+
+  {% if page_obj.has_next %}
+    <a href="?page={{ page_obj.next_page_number }}">Вперёд &raquo;</a>
+  {% else %}
+    <span class="disabled">Вперёд &raquo;</span>
+  {% endif %}
+</nav>
+{% endif %}

@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block title %}{{ object.title }} — {{ block.super }}{% endblock %}
+
+{% block content %}
+<a href="{% url 'catalog:list' %}">← Назад в каталог</a>
+
+<h1>{{ object.title }}</h1>
+
+{% if object.image %}
+  <img src="{{ object.image.url }}" alt="{{ object.title }}"
+       style="max-width:320px;height:auto;border-radius:12px;object-fit:cover;margin:12px 0;">
+{% else %}
+  <img src="/media/products/product_placeholder.svg" alt="{{ object.title }}"
+       style="max-width:320px;height:auto;border-radius:12px;object-fit:cover;margin:12px 0;">
+{% endif %}
+
+<p>Категория: {{ object.category.name }}</p>
+<p>Цена: <strong>{{ object.price }}</strong> мон.</p>
+<p>В наличии: {{ object.stock }}</p>
+
+{% if user.is_authenticated %}
+  <h3>Купить</h3>
+  <form method="post" action="{% url 'trade:buy' object.id %}">
+    {% csrf_token %}
+    <input type="number" name="quantity" min="1" value="1" required>
+    <button type="submit">Купить</button>
+  </form>
+
+  <h3>Продать</h3>
+  <form method="post" action="{% url 'trade:sell' object.id %}">
+    {% csrf_token %}
+    <input type="number" name="quantity" min="1" value="1" required>
+    <button type="submit">Продать</button>
+  </form>
+{% else %}
+  <p><a href="{% url 'login' %}">Войдите</a>, чтобы торговать.</p>
+{% endif %}
+{% endblock %}

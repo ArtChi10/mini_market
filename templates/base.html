@@ -1,0 +1,19 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}{{ settings.PROJECT_TITLE }}{% endblock %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% block head_extra %}{% endblock %}
+  <link rel="stylesheet" href="{% static 'css/app.css' %}">
+</head>
+<body>
+  {% include "_includes/_nav.html" %}
+  <main class="container">
+    {% include "_includes/_messages.html" %}
+    {% block content %}{% endblock %}
+  </main>
+  {% block body_scripts %}{% endblock %}
+</body>
+</html>

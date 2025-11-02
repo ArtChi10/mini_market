@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Мои товары — {{ block.super }}{% endblock %}
+{% block content %}
+<h1>Мои заявки</h1>
+<table border="1" cellpadding="6">
+  <tr><th>Название</th><th>Статус</th><th>Цена</th><th>Остаток</th><th>Обновлён</th></tr>
+  {% for p in object_list %}
+    <tr>
+      <td>{{ p.title }}</td>
+      <td>{% if p.is_approved %}✅ Одобрено{% else %}🕓 На проверке{% endif %}</td>
+      <td>{{ p.price }}</td>
+      <td>{{ p.stock }}</td>
+      <td>{{ p.updated_at }}</td>
+    </tr>
+  {% empty %}
+    <tr><td colspan="5" style="text-align:center;">Пока ничего не отправлено</td></tr>
+  {% endfor %}
+</table>
+<p><a href="{% url 'catalog:create' %}">+ Предложить новый товар</a></p>
+{% endblock %}

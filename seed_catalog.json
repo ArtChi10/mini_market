@@ -1,0 +1,3362 @@
+[
+  {
+    "model": "catalog.category",
+    "pk": 1,
+    "fields": {
+      "name": "Игрушки и настольные игры",
+      "slug": "igrushki-i-nastolnye-igry-01"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 2,
+    "fields": {
+      "name": "Канцелярия и товары для школы",
+      "slug": "kancelyariya-i-tovary-dlya-shkoly-02"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 3,
+    "fields": {
+      "name": "Книги и комиксы",
+      "slug": "knigi-i-komiksy-03"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 4,
+    "fields": {
+      "name": "Конструкторы",
+      "slug": "konstruktory-04"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 5,
+    "fields": {
+      "name": "Одежда и обувь",
+      "slug": "odezhda-i-obuv-05"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 6,
+    "fields": {
+      "name": "Аксессуары (рюкзаки, сумки, пеналы)",
+      "slug": "aksessuary-ryukzaki-sumki-penaly-06"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 7,
+    "fields": {
+      "name": "Электронные гаджеты",
+      "slug": "elektronnye-gadzhety-07"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 8,
+    "fields": {
+      "name": "Товары для творчества",
+      "slug": "tovary-dlya-tvorchestva-08"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 9,
+    "fields": {
+      "name": "Музыкальные инструменты",
+      "slug": "muzykalnye-instrumenty-09"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 10,
+    "fields": {
+      "name": "Пазлы и головоломки",
+      "slug": "pazly-i-golovolomki-10"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 11,
+    "fields": {
+      "name": "Хобби и коллекции",
+      "slug": "hobbi-i-kollekcii-11"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 12,
+    "fields": {
+      "name": "Игры для приставок и ПК",
+      "slug": "igry-dlya-pristavok-i-pk-12"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 13,
+    "fields": {
+      "name": "Спортивные товары",
+      "slug": "sportivnye-tovary-13"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 14,
+    "fields": {
+      "name": "Аксессуары для комнаты",
+      "slug": "aksessuary-dlya-komnaty-14"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 15,
+    "fields": {
+      "name": "Сладости и наборы «Сделай сам»",
+      "slug": "sladosti-i-nabory-sdelaj-sam-15"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 16,
+    "fields": {
+      "name": "Фигурки и коллекционные предметы",
+      "slug": "figurki-i-kollekcionnye-predmety-16"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 17,
+    "fields": {
+      "name": "Товары для домашних животных",
+      "slug": "tovary-dlya-domashnih-zhivotnyh-17"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 18,
+    "fields": {
+      "name": "Научные наборы и опыты",
+      "slug": "nauchnye-nabory-i-opyty-18"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 19,
+    "fields": {
+      "name": "Детская косметика",
+      "slug": "detskaya-kosmetika-19"
+    }
+  },
+  {
+    "model": "catalog.category",
+    "pk": 20,
+    "fields": {
+      "name": "Сувениры и подарки",
+      "slug": "suveniry-i-podarki-20"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 1,
+    "fields": {
+      "title": "Настольная игра «Диксит»",
+      "slug": "nastolnaya-igra-diksit-01-01",
+      "category": 1,
+      "price": "70",
+      "stock": 78,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 2,
+    "fields": {
+      "title": "UNO Junior",
+      "slug": "uno-junior-01-02",
+      "category": 1,
+      "price": "77",
+      "stock": 89,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 3,
+    "fields": {
+      "title": "Карточная игра «Мафия»",
+      "slug": "kartochnaya-igra-mafiya-01-03",
+      "category": 1,
+      "price": "84",
+      "stock": 100,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 4,
+    "fields": {
+      "title": "Кукла Барби «Путешественница»",
+      "slug": "kukla-barbi-puteshestvennica-01-04",
+      "category": 1,
+      "price": "91",
+      "stock": 111,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 5,
+    "fields": {
+      "title": "Машинка Hot Wheels",
+      "slug": "mashinka-hot-wheels-01-05",
+      "category": 1,
+      "price": "98",
+      "stock": 122,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 6,
+    "fields": {
+      "title": "Игрушка-антистресс Pop It",
+      "slug": "igrushka-antistress-pop-it-01-06",
+      "category": 1,
+      "price": "105",
+      "stock": 133,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 7,
+    "fields": {
+      "title": "Мягкий медвежонок 40 см",
+      "slug": "myagkij-medvezhonok-40-sm-01-07",
+      "category": 1,
+      "price": "112",
+      "stock": 144,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 8,
+    "fields": {
+      "title": "Робот на радиоуправлении",
+      "slug": "robot-na-radioupravlenii-01-08",
+      "category": 1,
+      "price": "119",
+      "stock": 155,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 9,
+    "fields": {
+      "title": "Игровой набор «Доктор»",
+      "slug": "igrovoj-nabor-doktor-01-09",
+      "category": 1,
+      "price": "126",
+      "stock": 166,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 10,
+    "fields": {
+      "title": "Настольный футбол мини",
+      "slug": "nastolnyj-futbol-mini-01-10",
+      "category": 1,
+      "price": "133",
+      "stock": 177,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 11,
+    "fields": {
+      "title": "Пенал с динозавром",
+      "slug": "penal-s-dinozavrom-02-01",
+      "category": 2,
+      "price": "83",
+      "stock": 95,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 12,
+    "fields": {
+      "title": "Тетради с героями мультфильмов",
+      "slug": "tetradi-s-geroyami-multfilmov-02-02",
+      "category": 2,
+      "price": "90",
+      "stock": 106,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 13,
+    "fields": {
+      "title": "Рюкзак с подсветкой",
+      "slug": "ryukzak-s-podsvetkoj-02-03",
+      "category": 2,
+      "price": "97",
+      "stock": 117,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 14,
+    "fields": {
+      "title": "Набор цветных ручек",
+      "slug": "nabor-cvetnyh-ruchek-02-04",
+      "category": 2,
+      "price": "104",
+      "stock": 128,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 15,
+    "fields": {
+      "title": "Ластики в форме фруктов",
+      "slug": "lastiki-v-forme-fruktov-02-05",
+      "category": 2,
+      "price": "111",
+      "stock": 139,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 16,
+    "fields": {
+      "title": "Планнер для школы",
+      "slug": "planner-dlya-shkoly-02-06",
+      "category": 2,
+      "price": "118",
+      "stock": 150,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 17,
+    "fields": {
+      "title": "Карандаши с ароматом",
+      "slug": "karandashi-s-aromatom-02-07",
+      "category": 2,
+      "price": "125",
+      "stock": 161,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 18,
+    "fields": {
+      "title": "Линейка с котиками",
+      "slug": "linejka-s-kotikami-02-08",
+      "category": 2,
+      "price": "132",
+      "stock": 172,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 19,
+    "fields": {
+      "title": "Обложки для учебников",
+      "slug": "oblozhki-dlya-uchebnikov-02-09",
+      "category": 2,
+      "price": "139",
+      "stock": 183,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 20,
+    "fields": {
+      "title": "Органайзер для стола",
+      "slug": "organajzer-dlya-stola-02-10",
+      "category": 2,
+      "price": "146",
+      "stock": 194,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 21,
+    "fields": {
+      "title": "«Гарри Поттер и философский камень»",
+      "slug": "garri-potter-i-filosofskij-kamen-03-01",
+      "category": 3,
+      "price": "96",
+      "stock": 112,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 22,
+    "fields": {
+      "title": "«Дневник слабака»",
+      "slug": "dnevnik-slabaka-03-02",
+      "category": 3,
+      "price": "103",
+      "stock": 123,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 23,
+    "fields": {
+      "title": "«Малыш и Карлсон»",
+      "slug": "malysh-i-karlson-03-03",
+      "category": 3,
+      "price": "110",
+      "stock": 134,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 24,
+    "fields": {
+      "title": "«Невероятные приключения Томаса и его друзей»",
+      "slug": "neveroyatnye-priklyucheniya-tomasa-i-ego-druzej-03-04",
+      "category": 3,
+      "price": "117",
+      "stock": 145,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 25,
+    "fields": {
+      "title": "Манга «Покемон»",
+      "slug": "manga-pokemon-03-05",
+      "category": 3,
+      "price": "124",
+      "stock": 156,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 26,
+    "fields": {
+      "title": "Сборник комиксов Marvel",
+      "slug": "sbornik-komiksov-marvel-03-06",
+      "category": 3,
+      "price": "131",
+      "stock": 167,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 27,
+    "fields": {
+      "title": "Книга «Коты-воители»",
+      "slug": "kniga-koty-voiteli-03-07",
+      "category": 3,
+      "price": "138",
+      "stock": 178,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 28,
+    "fields": {
+      "title": "Энциклопедия для детей «Космос»",
+      "slug": "enciklopediya-dlya-detej-kosmos-03-08",
+      "category": 3,
+      "price": "145",
+      "stock": 189,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 29,
+    "fields": {
+      "title": "Книга-раскраска",
+      "slug": "kniga-raskraska-03-09",
+      "category": 3,
+      "price": "152",
+      "stock": 200,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 30,
+    "fields": {
+      "title": "Интерактивная книга со звуками",
+      "slug": "interaktivnaya-kniga-so-zvukami-03-10",
+      "category": 3,
+      "price": "159",
+      "stock": 60,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 31,
+    "fields": {
+      "title": "LEGO City «Пожарная станция»",
+      "slug": "lego-city-pozharnaya-stanciya-04-01",
+      "category": 4,
+      "price": "109",
+      "stock": 129,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 32,
+    "fields": {
+      "title": "LEGO Friends «Кафе у моря»",
+      "slug": "lego-friends-kafe-u-morya-04-02",
+      "category": 4,
+      "price": "116",
+      "stock": 140,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 33,
+    "fields": {
+      "title": "Магнитный конструктор",
+      "slug": "magnitnyj-konstruktor-04-03",
+      "category": 4,
+      "price": "123",
+      "stock": 151,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 34,
+    "fields": {
+      "title": "Набор для сборки машинки",
+      "slug": "nabor-dlya-sborki-mashinki-04-04",
+      "category": 4,
+      "price": "130",
+      "stock": 162,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 35,
+    "fields": {
+      "title": "3D-пазл «Эйфелева башня»",
+      "slug": "3d-pazl-ejfeleva-bashnya-04-05",
+      "category": 4,
+      "price": "137",
+      "stock": 173,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 36,
+    "fields": {
+      "title": "Конструктор «Механика и шестерёнки»",
+      "slug": "konstruktor-mehanika-i-shesterenki-04-06",
+      "category": 4,
+      "price": "144",
+      "stock": 184,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 37,
+    "fields": {
+      "title": "Набор деревянных блоков",
+      "slug": "nabor-derevyannyh-blokov-04-07",
+      "category": 4,
+      "price": "151",
+      "stock": 195,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 38,
+    "fields": {
+      "title": "LEGO Minecraft «Пещера с лавой»",
+      "slug": "lego-minecraft-peschera-s-lavoj-04-08",
+      "category": 4,
+      "price": "158",
+      "stock": 55,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 39,
+    "fields": {
+      "title": "Конструктор из мягких деталей",
+      "slug": "konstruktor-iz-myagkih-detalej-04-09",
+      "category": 4,
+      "price": "165",
+      "stock": 66,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 40,
+    "fields": {
+      "title": "Робоконструктор на батарейках",
+      "slug": "robokonstruktor-na-batarejkah-04-10",
+      "category": 4,
+      "price": "172",
+      "stock": 77,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 41,
+    "fields": {
+      "title": "Футболка с принтом «Человек-паук»",
+      "slug": "futbolka-s-printom-chelovek-pauk-05-01",
+      "category": 5,
+      "price": "122",
+      "stock": 146,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 42,
+    "fields": {
+      "title": "Худи с кошкой",
+      "slug": "hudi-s-koshkoj-05-02",
+      "category": 5,
+      "price": "129",
+      "stock": 157,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 43,
+    "fields": {
+      "title": "Джинсы для мальчиков",
+      "slug": "dzhinsy-dlya-malchikov-05-03",
+      "category": 5,
+      "price": "136",
+      "stock": 168,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 44,
+    "fields": {
+      "title": "Платье с блёстками",
+      "slug": "plate-s-blestkami-05-04",
+      "category": 5,
+      "price": "143",
+      "stock": 179,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 45,
+    "fields": {
+      "title": "Кроссовки светящиеся",
+      "slug": "krossovki-svetyaschiesya-05-05",
+      "category": 5,
+      "price": "150",
+      "stock": 190,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 46,
+    "fields": {
+      "title": "Шапка с помпоном",
+      "slug": "shapka-s-pomponom-05-06",
+      "category": 5,
+      "price": "157",
+      "stock": 50,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 47,
+    "fields": {
+      "title": "Пижама с героями мультфильмов",
+      "slug": "pizhama-s-geroyami-multfilmov-05-07",
+      "category": 5,
+      "price": "164",
+      "stock": 61,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 48,
+    "fields": {
+      "title": "Перчатки с единорогами",
+      "slug": "perchatki-s-edinorogami-05-08",
+      "category": 5,
+      "price": "171",
+      "stock": 72,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 49,
+    "fields": {
+      "title": "Куртка с капюшоном",
+      "slug": "kurtka-s-kapyushonom-05-09",
+      "category": 5,
+      "price": "178",
+      "stock": 83,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 50,
+    "fields": {
+      "title": "Носки с рисунками",
+      "slug": "noski-s-risunkami-05-10",
+      "category": 5,
+      "price": "185",
+      "stock": 94,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 51,
+    "fields": {
+      "title": "Рюкзак с LED-подсветкой",
+      "slug": "ryukzak-s-led-podsvetkoj-06-01",
+      "category": 6,
+      "price": "135",
+      "stock": 163,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 52,
+    "fields": {
+      "title": "Сумка через плечо «Among Us»",
+      "slug": "sumka-cherez-plecho-among-us-06-02",
+      "category": 6,
+      "price": "142",
+      "stock": 174,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 53,
+    "fields": {
+      "title": "Поясная сумка с котиком",
+      "slug": "poyasnaya-sumka-s-kotikom-06-03",
+      "category": 6,
+      "price": "149",
+      "stock": 185,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 54,
+    "fields": {
+      "title": "Пенал с отделениями",
+      "slug": "penal-s-otdeleniyami-06-04",
+      "category": 6,
+      "price": "156",
+      "stock": 196,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 55,
+    "fields": {
+      "title": "Кошелёк с пайетками",
+      "slug": "koshelek-s-pajetkami-06-05",
+      "category": 6,
+      "price": "163",
+      "stock": 56,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 56,
+    "fields": {
+      "title": "Чехол для телефона «Minecraft»",
+      "slug": "chehol-dlya-telefona-minecraft-06-06",
+      "category": 6,
+      "price": "170",
+      "stock": 67,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 57,
+    "fields": {
+      "title": "Значки и пины",
+      "slug": "znachki-i-piny-06-07",
+      "category": 6,
+      "price": "177",
+      "stock": 78,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 58,
+    "fields": {
+      "title": "Наклейки для ноутбука",
+      "slug": "naklejki-dlya-noutbuka-06-08",
+      "category": 6,
+      "price": "184",
+      "stock": 89,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 59,
+    "fields": {
+      "title": "Брелок-светильник",
+      "slug": "brelok-svetilnik-06-09",
+      "category": 6,
+      "price": "191",
+      "stock": 100,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 60,
+    "fields": {
+      "title": "Подвеска на рюкзак",
+      "slug": "podveska-na-ryukzak-06-10",
+      "category": 6,
+      "price": "198",
+      "stock": 111,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 61,
+    "fields": {
+      "title": "Детские наушники с ограничением громкости",
+      "slug": "detskie-naushniki-s-ogranicheniem-gromkosti-07-01",
+      "category": 7,
+      "price": "148",
+      "stock": 180,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 62,
+    "fields": {
+      "title": "Смарт-часы для детей",
+      "slug": "smart-chasy-dlya-detej-07-02",
+      "category": 7,
+      "price": "155",
+      "stock": 191,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 63,
+    "fields": {
+      "title": "Мини-лампа с USB",
+      "slug": "mini-lampa-s-usb-07-03",
+      "category": 7,
+      "price": "162",
+      "stock": 51,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 64,
+    "fields": {
+      "title": "Беспроводная колонка в форме котика",
+      "slug": "besprovodnaya-kolonka-v-forme-kotika-07-04",
+      "category": 7,
+      "price": "169",
+      "stock": 62,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 65,
+    "fields": {
+      "title": "Флешка с мультяшным героем",
+      "slug": "fleshka-s-multyashnym-geroem-07-05",
+      "category": 7,
+      "price": "176",
+      "stock": 73,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 66,
+    "fields": {
+      "title": "Светильник-проектор звёздного неба",
+      "slug": "svetilnik-proektor-zvezdnogo-neba-07-06",
+      "category": 7,
+      "price": "183",
+      "stock": 84,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 67,
+    "fields": {
+      "title": "Подставка для телефона",
+      "slug": "podstavka-dlya-telefona-07-07",
+      "category": 7,
+      "price": "190",
+      "stock": 95,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 68,
+    "fields": {
+      "title": "Детская камера",
+      "slug": "detskaya-kamera-07-08",
+      "category": 7,
+      "price": "197",
+      "stock": 106,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 69,
+    "fields": {
+      "title": "Мини-вентилятор USB",
+      "slug": "mini-ventilyator-usb-07-09",
+      "category": 7,
+      "price": "204",
+      "stock": 117,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 70,
+    "fields": {
+      "title": "Портативное зеркало с подсветкой",
+      "slug": "portativnoe-zerkalo-s-podsvetkoj-07-10",
+      "category": 7,
+      "price": "211",
+      "stock": 128,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 71,
+    "fields": {
+      "title": "Набор акварели",
+      "slug": "nabor-akvareli-08-01",
+      "category": 8,
+      "price": "161",
+      "stock": 197,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 72,
+    "fields": {
+      "title": "Пластилин с блёстками",
+      "slug": "plastilin-s-blestkami-08-02",
+      "category": 8,
+      "price": "168",
+      "stock": 57,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 73,
+    "fields": {
+      "title": "Альбом для рисования",
+      "slug": "albom-dlya-risovaniya-08-03",
+      "category": 8,
+      "price": "175",
+      "stock": 68,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 74,
+    "fields": {
+      "title": "Набор кистей и фломастеров",
+      "slug": "nabor-kistej-i-flomasterov-08-04",
+      "category": 8,
+      "price": "182",
+      "stock": 79,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 75,
+    "fields": {
+      "title": "Аппликации из фетра",
+      "slug": "applikacii-iz-fetra-08-05",
+      "category": 8,
+      "price": "189",
+      "stock": 90,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 76,
+    "fields": {
+      "title": "Набор для скрапбукинга",
+      "slug": "nabor-dlya-skrapbukinga-08-06",
+      "category": 8,
+      "price": "196",
+      "stock": 101,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 77,
+    "fields": {
+      "title": "Песочные картины",
+      "slug": "pesochnye-kartiny-08-07",
+      "category": 8,
+      "price": "203",
+      "stock": 112,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 78,
+    "fields": {
+      "title": "Набор для лепки «Сладости»",
+      "slug": "nabor-dlya-lepki-sladosti-08-08",
+      "category": 8,
+      "price": "210",
+      "stock": 123,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 79,
+    "fields": {
+      "title": "Раскраска по номерам",
+      "slug": "raskraska-po-nomeram-08-09",
+      "category": 8,
+      "price": "217",
+      "stock": 134,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 80,
+    "fields": {
+      "title": "Набор для создания браслетов",
+      "slug": "nabor-dlya-sozdaniya-brasletov-08-10",
+      "category": 8,
+      "price": "224",
+      "stock": 145,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 81,
+    "fields": {
+      "title": "Детская гитара",
+      "slug": "detskaya-gitara-09-01",
+      "category": 9,
+      "price": "174",
+      "stock": 63,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 82,
+    "fields": {
+      "title": "Ксилофон",
+      "slug": "ksilofon-09-02",
+      "category": 9,
+      "price": "181",
+      "stock": 74,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 83,
+    "fields": {
+      "title": "Мини-барабан",
+      "slug": "mini-baraban-09-03",
+      "category": 9,
+      "price": "188",
+      "stock": 85,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 84,
+    "fields": {
+      "title": "Флейта",
+      "slug": "flejta-09-04",
+      "category": 9,
+      "price": "195",
+      "stock": 96,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 85,
+    "fields": {
+      "title": "Детское пианино",
+      "slug": "detskoe-pianino-09-05",
+      "category": 9,
+      "price": "202",
+      "stock": 107,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 86,
+    "fields": {
+      "title": "Укулеле",
+      "slug": "ukulele-09-06",
+      "category": 9,
+      "price": "209",
+      "stock": 118,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 87,
+    "fields": {
+      "title": "Бубен",
+      "slug": "buben-09-07",
+      "category": 9,
+      "price": "216",
+      "stock": 129,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 88,
+    "fields": {
+      "title": "Маракасы",
+      "slug": "marakasy-09-08",
+      "category": 9,
+      "price": "223",
+      "stock": 140,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 89,
+    "fields": {
+      "title": "Микрофон с эхо",
+      "slug": "mikrofon-s-eho-09-09",
+      "category": 9,
+      "price": "230",
+      "stock": 151,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 90,
+    "fields": {
+      "title": "Мини-синтезатор",
+      "slug": "mini-sintezator-09-10",
+      "category": 9,
+      "price": "237",
+      "stock": 162,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 91,
+    "fields": {
+      "title": "Пазл «Карта мира»",
+      "slug": "pazl-karta-mira-10-01",
+      "category": 10,
+      "price": "187",
+      "stock": 80,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 92,
+    "fields": {
+      "title": "Кубик Рубика",
+      "slug": "kubik-rubika-10-02",
+      "category": 10,
+      "price": "194",
+      "stock": 91,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 93,
+    "fields": {
+      "title": "3D-пазл «Замок»",
+      "slug": "3d-pazl-zamok-10-03",
+      "category": 10,
+      "price": "201",
+      "stock": 102,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 94,
+    "fields": {
+      "title": "Металлические головоломки",
+      "slug": "metallicheskie-golovolomki-10-04",
+      "category": 10,
+      "price": "208",
+      "stock": 113,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 95,
+    "fields": {
+      "title": "Пазл из 500 деталей «Животные»",
+      "slug": "pazl-iz-500-detalej-zhivotnye-10-05",
+      "category": 10,
+      "price": "215",
+      "stock": 124,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 96,
+    "fields": {
+      "title": "Лабиринт-шар",
+      "slug": "labirint-shar-10-06",
+      "category": 10,
+      "price": "222",
+      "stock": 135,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 97,
+    "fields": {
+      "title": "Деревянные логические игры",
+      "slug": "derevyannye-logicheskie-igry-10-07",
+      "category": 10,
+      "price": "229",
+      "stock": 146,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 98,
+    "fields": {
+      "title": "IQ-блоки",
+      "slug": "iq-bloki-10-08",
+      "category": 10,
+      "price": "236",
+      "stock": 157,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 99,
+    "fields": {
+      "title": "Мини-головоломки в коробке",
+      "slug": "mini-golovolomki-v-korobke-10-09",
+      "category": 10,
+      "price": "243",
+      "stock": 168,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 100,
+    "fields": {
+      "title": "Пазл «Гарри Поттер»",
+      "slug": "pazl-garri-potter-10-10",
+      "category": 10,
+      "price": "250",
+      "stock": 179,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 101,
+    "fields": {
+      "title": "Коллекционные карточки Pokémon",
+      "slug": "kollekcionnye-kartochki-pok-mon-11-01",
+      "category": 11,
+      "price": "200",
+      "stock": 97,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 102,
+    "fields": {
+      "title": "Мини-фигурки Marvel",
+      "slug": "mini-figurki-marvel-11-02",
+      "category": 11,
+      "price": "207",
+      "stock": 108,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 103,
+    "fields": {
+      "title": "Монеты и жетоны",
+      "slug": "monety-i-zhetony-11-03",
+      "category": 11,
+      "price": "214",
+      "stock": 119,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 104,
+    "fields": {
+      "title": "Стикеры и наклейки",
+      "slug": "stikery-i-naklejki-11-04",
+      "category": 11,
+      "price": "221",
+      "stock": 130,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 105,
+    "fields": {
+      "title": "Блокнот для коллекций",
+      "slug": "bloknot-dlya-kollekcij-11-05",
+      "category": 11,
+      "price": "228",
+      "stock": 141,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 106,
+    "fields": {
+      "title": "Альбом для карточек",
+      "slug": "albom-dlya-kartochek-11-06",
+      "category": 11,
+      "price": "235",
+      "stock": 152,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 107,
+    "fields": {
+      "title": "Значки с героями",
+      "slug": "znachki-s-geroyami-11-07",
+      "category": 11,
+      "price": "242",
+      "stock": 163,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 108,
+    "fields": {
+      "title": "Магниты",
+      "slug": "magnity-11-08",
+      "category": 11,
+      "price": "249",
+      "stock": 174,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 109,
+    "fields": {
+      "title": "Фигурки Funko POP!",
+      "slug": "figurki-funko-pop-11-09",
+      "category": 11,
+      "price": "256",
+      "stock": 185,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 110,
+    "fields": {
+      "title": "Коллекционные машинки",
+      "slug": "kollekcionnye-mashinki-11-10",
+      "category": 11,
+      "price": "263",
+      "stock": 196,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 111,
+    "fields": {
+      "title": "Minecraft",
+      "slug": "minecraft-12-01",
+      "category": 12,
+      "price": "213",
+      "stock": 114,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 112,
+    "fields": {
+      "title": "LEGO Star Wars",
+      "slug": "lego-star-wars-12-02",
+      "category": 12,
+      "price": "220",
+      "stock": 125,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 113,
+    "fields": {
+      "title": "Super Mario Odyssey",
+      "slug": "super-mario-odyssey-12-03",
+      "category": 12,
+      "price": "227",
+      "stock": 136,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 114,
+    "fields": {
+      "title": "Animal Crossing",
+      "slug": "animal-crossing-12-04",
+      "category": 12,
+      "price": "234",
+      "stock": 147,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 115,
+    "fields": {
+      "title": "Sonic Frontiers",
+      "slug": "sonic-frontiers-12-05",
+      "category": 12,
+      "price": "241",
+      "stock": 158,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 116,
+    "fields": {
+      "title": "Mario Kart",
+      "slug": "mario-kart-12-06",
+      "category": 12,
+      "price": "248",
+      "stock": 169,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 117,
+    "fields": {
+      "title": "Roblox Gift Card",
+      "slug": "roblox-gift-card-12-07",
+      "category": 12,
+      "price": "255",
+      "stock": 180,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 118,
+    "fields": {
+      "title": "Just Dance",
+      "slug": "just-dance-12-08",
+      "category": 12,
+      "price": "262",
+      "stock": 191,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 119,
+    "fields": {
+      "title": "Pokémon Violet",
+      "slug": "pok-mon-violet-12-09",
+      "category": 12,
+      "price": "269",
+      "stock": 51,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 120,
+    "fields": {
+      "title": "The Sims 4 Kids Edition",
+      "slug": "the-sims-4-kids-edition-12-10",
+      "category": 12,
+      "price": "276",
+      "stock": 62,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 121,
+    "fields": {
+      "title": "Скакалка",
+      "slug": "skakalka-13-01",
+      "category": 13,
+      "price": "226",
+      "stock": 131,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 122,
+    "fields": {
+      "title": "Мяч футбольный детский",
+      "slug": "myach-futbolnyj-detskij-13-02",
+      "category": 13,
+      "price": "233",
+      "stock": 142,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 123,
+    "fields": {
+      "title": "Самокат",
+      "slug": "samokat-13-03",
+      "category": 13,
+      "price": "240",
+      "stock": 153,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 124,
+    "fields": {
+      "title": "Роликовые коньки",
+      "slug": "rolikovye-konki-13-04",
+      "category": 13,
+      "price": "247",
+      "stock": 164,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 125,
+    "fields": {
+      "title": "Велосипед детский",
+      "slug": "velosiped-detskij-13-05",
+      "category": 13,
+      "price": "254",
+      "stock": 175,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 126,
+    "fields": {
+      "title": "Мяч для фитнеса",
+      "slug": "myach-dlya-fitnesa-13-06",
+      "category": 13,
+      "price": "261",
+      "stock": 186,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 127,
+    "fields": {
+      "title": "Гантели лёгкие",
+      "slug": "ganteli-legkie-13-07",
+      "category": 13,
+      "price": "268",
+      "stock": 197,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 128,
+    "fields": {
+      "title": "Сетка для бадминтона",
+      "slug": "setka-dlya-badmintona-13-08",
+      "category": 13,
+      "price": "275",
+      "stock": 57,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 129,
+    "fields": {
+      "title": "Шлем для катания",
+      "slug": "shlem-dlya-kataniya-13-09",
+      "category": 13,
+      "price": "282",
+      "stock": 68,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 130,
+    "fields": {
+      "title": "Защита на колени",
+      "slug": "zaschita-na-koleni-13-10",
+      "category": 13,
+      "price": "289",
+      "stock": 79,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 131,
+    "fields": {
+      "title": "Ночник-облако",
+      "slug": "nochnik-oblako-14-01",
+      "category": 14,
+      "price": "239",
+      "stock": 148,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 132,
+    "fields": {
+      "title": "Постельное бельё с котами",
+      "slug": "postelnoe-bele-s-kotami-14-02",
+      "category": 14,
+      "price": "246",
+      "stock": 159,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 133,
+    "fields": {
+      "title": "Коврик в форме луны",
+      "slug": "kovrik-v-forme-luny-14-03",
+      "category": 14,
+      "price": "253",
+      "stock": 170,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 134,
+    "fields": {
+      "title": "Подушка с пайетками",
+      "slug": "podushka-s-pajetkami-14-04",
+      "category": 14,
+      "price": "260",
+      "stock": 181,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 135,
+    "fields": {
+      "title": "Светящиеся звёзды на потолок",
+      "slug": "svetyaschiesya-zvezdy-na-potolok-14-05",
+      "category": 14,
+      "price": "267",
+      "stock": 192,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 136,
+    "fields": {
+      "title": "Органайзер для игрушек",
+      "slug": "organajzer-dlya-igrushek-14-06",
+      "category": 14,
+      "price": "274",
+      "stock": 52,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 137,
+    "fields": {
+      "title": "Плед с героями мультфильмов",
+      "slug": "pled-s-geroyami-multfilmov-14-07",
+      "category": 14,
+      "price": "281",
+      "stock": 63,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 138,
+    "fields": {
+      "title": "Постер с супергероем",
+      "slug": "poster-s-supergeroem-14-08",
+      "category": 14,
+      "price": "288",
+      "stock": 74,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 139,
+    "fields": {
+      "title": "Мини-полка для книг",
+      "slug": "mini-polka-dlya-knig-14-09",
+      "category": 14,
+      "price": "295",
+      "stock": 85,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 140,
+    "fields": {
+      "title": "Зеркало с подсветкой",
+      "slug": "zerkalo-s-podsvetkoj-14-10",
+      "category": 14,
+      "price": "302",
+      "stock": 96,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 141,
+    "fields": {
+      "title": "Набор для приготовления жевательных конфет",
+      "slug": "nabor-dlya-prigotovleniya-zhevatelnyh-konfet-15-01",
+      "category": 15,
+      "price": "252",
+      "stock": 165,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 142,
+    "fields": {
+      "title": "Шоколад Kinder Surprise",
+      "slug": "shokolad-kinder-surprise-15-02",
+      "category": 15,
+      "price": "259",
+      "stock": 176,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 143,
+    "fields": {
+      "title": "Леденцы ручной работы",
+      "slug": "ledency-ruchnoj-raboty-15-03",
+      "category": 15,
+      "price": "266",
+      "stock": 187,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 144,
+    "fields": {
+      "title": "Печенье с предсказаниями",
+      "slug": "pechene-s-predskazaniyami-15-04",
+      "category": 15,
+      "price": "273",
+      "stock": 198,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 145,
+    "fields": {
+      "title": "Набор «Сделай шоколад»",
+      "slug": "nabor-sdelaj-shokolad-15-05",
+      "category": 15,
+      "price": "280",
+      "stock": 58,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 146,
+    "fields": {
+      "title": "Мармелад в виде животных",
+      "slug": "marmelad-v-vide-zhivotnyh-15-06",
+      "category": 15,
+      "price": "287",
+      "stock": 69,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 147,
+    "fields": {
+      "title": "Молочный коктейль в порошке",
+      "slug": "molochnyj-koktejl-v-poroshke-15-07",
+      "category": 15,
+      "price": "294",
+      "stock": 80,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 148,
+    "fields": {
+      "title": "Мини-набор для мороженого",
+      "slug": "mini-nabor-dlya-morozhenogo-15-08",
+      "category": 15,
+      "price": "301",
+      "stock": 91,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 149,
+    "fields": {
+      "title": "Набор для декора кексов",
+      "slug": "nabor-dlya-dekora-keksov-15-09",
+      "category": 15,
+      "price": "308",
+      "stock": 102,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 150,
+    "fields": {
+      "title": "Печенье с мультипликационными героями",
+      "slug": "pechene-s-multiplikacionnymi-geroyami-15-10",
+      "category": 15,
+      "price": "315",
+      "stock": 113,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 151,
+    "fields": {
+      "title": "Funko POP! «Хогвартс»",
+      "slug": "funko-pop-hogvarts-16-01",
+      "category": 16,
+      "price": "265",
+      "stock": 182,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 152,
+    "fields": {
+      "title": "Фигурка «Человек-паук»",
+      "slug": "figurka-chelovek-pauk-16-02",
+      "category": 16,
+      "price": "272",
+      "stock": 193,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 153,
+    "fields": {
+      "title": "Кукла LOL Surprise",
+      "slug": "kukla-lol-surprise-16-03",
+      "category": 16,
+      "price": "279",
+      "stock": 53,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 154,
+    "fields": {
+      "title": "Набор фигурок динозавров",
+      "slug": "nabor-figurok-dinozavrov-16-04",
+      "category": 16,
+      "price": "286",
+      "stock": 64,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 155,
+    "fields": {
+      "title": "Фигурка Бэтмена",
+      "slug": "figurka-betmena-16-05",
+      "category": 16,
+      "price": "293",
+      "stock": 75,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 156,
+    "fields": {
+      "title": "Мини-питомцы",
+      "slug": "mini-pitomcy-16-06",
+      "category": 16,
+      "price": "300",
+      "stock": 86,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 157,
+    "fields": {
+      "title": "Коллекционные машинки Hot Wheels",
+      "slug": "kollekcionnye-mashinki-hot-wheels-16-07",
+      "category": 16,
+      "price": "307",
+      "stock": 97,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 158,
+    "fields": {
+      "title": "Фигурка Sonic",
+      "slug": "figurka-sonic-16-08",
+      "category": 16,
+      "price": "314",
+      "stock": 108,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 159,
+    "fields": {
+      "title": "Набор фигурок животных",
+      "slug": "nabor-figurok-zhivotnyh-16-09",
+      "category": 16,
+      "price": "321",
+      "stock": 119,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 160,
+    "fields": {
+      "title": "Кукла Baby Born",
+      "slug": "kukla-baby-born-16-10",
+      "category": 16,
+      "price": "328",
+      "stock": 130,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 161,
+    "fields": {
+      "title": "Игрушка для кошки «мышка на пружине»",
+      "slug": "igrushka-dlya-koshki-myshka-na-pruzhine-17-01",
+      "category": 17,
+      "price": "278",
+      "stock": 199,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 162,
+    "fields": {
+      "title": "Поводок с принтом",
+      "slug": "povodok-s-printom-17-02",
+      "category": 17,
+      "price": "285",
+      "stock": 59,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 163,
+    "fields": {
+      "title": "Миска с котиком",
+      "slug": "miska-s-kotikom-17-03",
+      "category": 17,
+      "price": "292",
+      "stock": 70,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 164,
+    "fields": {
+      "title": "Домик для хомячка",
+      "slug": "domik-dlya-homyachka-17-04",
+      "category": 17,
+      "price": "299",
+      "stock": 81,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 165,
+    "fields": {
+      "title": "Кормушка автоматическая",
+      "slug": "kormushka-avtomaticheskaya-17-05",
+      "category": 17,
+      "price": "306",
+      "stock": 92,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 166,
+    "fields": {
+      "title": "Щётка для животных",
+      "slug": "schetka-dlya-zhivotnyh-17-06",
+      "category": 17,
+      "price": "313",
+      "stock": 103,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 167,
+    "fields": {
+      "title": "Набор для ухода за питомцем",
+      "slug": "nabor-dlya-uhoda-za-pitomcem-17-07",
+      "category": 17,
+      "price": "320",
+      "stock": 114,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 168,
+    "fields": {
+      "title": "Игрушка-мяч с колокольчиком",
+      "slug": "igrushka-myach-s-kolokolchikom-17-08",
+      "category": 17,
+      "price": "327",
+      "stock": 125,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 169,
+    "fields": {
+      "title": "Ошейник с именем",
+      "slug": "oshejnik-s-imenem-17-09",
+      "category": 17,
+      "price": "334",
+      "stock": 136,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 170,
+    "fields": {
+      "title": "Подстилка для переноски",
+      "slug": "podstilka-dlya-perenoski-17-10",
+      "category": 17,
+      "price": "341",
+      "stock": 147,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 171,
+    "fields": {
+      "title": "Набор «Вырастить кристалл»",
+      "slug": "nabor-vyrastit-kristall-18-01",
+      "category": 18,
+      "price": "291",
+      "stock": 65,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 172,
+    "fields": {
+      "title": "Мини-лаборатория",
+      "slug": "mini-laboratoriya-18-02",
+      "category": 18,
+      "price": "298",
+      "stock": 76,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 173,
+    "fields": {
+      "title": "Микроскоп детский",
+      "slug": "mikroskop-detskij-18-03",
+      "category": 18,
+      "price": "305",
+      "stock": 87,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 174,
+    "fields": {
+      "title": "Телескоп начального уровня",
+      "slug": "teleskop-nachalnogo-urovnya-18-04",
+      "category": 18,
+      "price": "312",
+      "stock": 98,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 175,
+    "fields": {
+      "title": "Опыт с вулканом",
+      "slug": "opyt-s-vulkanom-18-05",
+      "category": 18,
+      "price": "319",
+      "stock": 109,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 176,
+    "fields": {
+      "title": "Набор «Юный химик»",
+      "slug": "nabor-yunyj-himik-18-06",
+      "category": 18,
+      "price": "326",
+      "stock": 120,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 177,
+    "fields": {
+      "title": "Электрический конструктор",
+      "slug": "elektricheskij-konstruktor-18-07",
+      "category": 18,
+      "price": "333",
+      "stock": 131,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 178,
+    "fields": {
+      "title": "Опыт «Слизь своими руками»",
+      "slug": "opyt-sliz-svoimi-rukami-18-08",
+      "category": 18,
+      "price": "340",
+      "stock": 142,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 179,
+    "fields": {
+      "title": "Магнитный набор",
+      "slug": "magnitnyj-nabor-18-09",
+      "category": 18,
+      "price": "347",
+      "stock": 153,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 180,
+    "fields": {
+      "title": "Набор для выращивания растений",
+      "slug": "nabor-dlya-vyraschivaniya-rastenij-18-10",
+      "category": 18,
+      "price": "354",
+      "stock": 164,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 181,
+    "fields": {
+      "title": "Блеск для губ с ароматом",
+      "slug": "blesk-dlya-gub-s-aromatom-19-01",
+      "category": 19,
+      "price": "304",
+      "stock": 82,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 182,
+    "fields": {
+      "title": "Лак для ногтей на водной основе",
+      "slug": "lak-dlya-nogtej-na-vodnoj-osnove-19-02",
+      "category": 19,
+      "price": "311",
+      "stock": 93,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 183,
+    "fields": {
+      "title": "Бомбочка для ванны",
+      "slug": "bombochka-dlya-vanny-19-03",
+      "category": 19,
+      "price": "318",
+      "stock": 104,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 184,
+    "fields": {
+      "title": "Гель с блёстками",
+      "slug": "gel-s-blestkami-19-04",
+      "category": 19,
+      "price": "325",
+      "stock": 115,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 185,
+    "fields": {
+      "title": "Мыло ручной работы",
+      "slug": "mylo-ruchnoj-raboty-19-05",
+      "category": 19,
+      "price": "332",
+      "stock": 126,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 186,
+    "fields": {
+      "title": "Тени детские",
+      "slug": "teni-detskie-19-06",
+      "category": 19,
+      "price": "339",
+      "stock": 137,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 187,
+    "fields": {
+      "title": "Ароматная расческа",
+      "slug": "aromatnaya-rascheska-19-07",
+      "category": 19,
+      "price": "346",
+      "stock": 148,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 188,
+    "fields": {
+      "title": "Набор «Маленький визажист»",
+      "slug": "nabor-malenkij-vizazhist-19-08",
+      "category": 19,
+      "price": "353",
+      "stock": 159,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 189,
+    "fields": {
+      "title": "Помада-бальзам",
+      "slug": "pomada-balzam-19-09",
+      "category": 19,
+      "price": "360",
+      "stock": 170,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 190,
+    "fields": {
+      "title": "Крем с единорогом",
+      "slug": "krem-s-edinorogom-19-10",
+      "category": 19,
+      "price": "367",
+      "stock": 181,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 191,
+    "fields": {
+      "title": "Набор стикеров",
+      "slug": "nabor-stikerov-20-01",
+      "category": 20,
+      "price": "317",
+      "stock": 99,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 192,
+    "fields": {
+      "title": "Открытки для друзей",
+      "slug": "otkrytki-dlya-druzej-20-02",
+      "category": 20,
+      "price": "324",
+      "stock": 110,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 193,
+    "fields": {
+      "title": "Брелок в форме сердца",
+      "slug": "brelok-v-forme-serdca-20-03",
+      "category": 20,
+      "price": "331",
+      "stock": 121,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 194,
+    "fields": {
+      "title": "Копилка-свинка",
+      "slug": "kopilka-svinka-20-04",
+      "category": 20,
+      "price": "338",
+      "stock": 132,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 195,
+    "fields": {
+      "title": "Магнит «Лучший друг»",
+      "slug": "magnit-luchshij-drug-20-05",
+      "category": 20,
+      "price": "345",
+      "stock": 143,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 196,
+    "fields": {
+      "title": "Мини-фигурка любимого героя",
+      "slug": "mini-figurka-lyubimogo-geroya-20-06",
+      "category": 20,
+      "price": "352",
+      "stock": 154,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 197,
+    "fields": {
+      "title": "Фотоальбом",
+      "slug": "fotoalbom-20-07",
+      "category": 20,
+      "price": "359",
+      "stock": 165,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 198,
+    "fields": {
+      "title": "Кружка с рисунком",
+      "slug": "kruzhka-s-risunkom-20-08",
+      "category": 20,
+      "price": "366",
+      "stock": 176,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 199,
+    "fields": {
+      "title": "Значок с цитатой",
+      "slug": "znachok-s-citatoj-20-09",
+      "category": 20,
+      "price": "373",
+      "stock": 187,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  },
+  {
+    "model": "catalog.product",
+    "pk": 200,
+    "fields": {
+      "title": "Мини-подушка-смайлик",
+      "slug": "mini-podushka-smajlik-20-10",
+      "category": 20,
+      "price": "380",
+      "stock": 198,
+      "min_price": "1.00",
+      "max_price": "10000.00",
+      "created_at": "2025-01-01T09:00:00Z",
+      "updated_at": "2025-01-01T09:00:00Z",
+      "next_change_at": "2025-01-03T09:00:00Z"
+    }
+  }
+]
