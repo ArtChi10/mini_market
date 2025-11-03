@@ -52,12 +52,12 @@ class Product(models.Model):
     description = models.TextField(blank=True, default="")
     ascii_art = models.TextField(blank=True, default="")
 
-    # кто создал и модерация
     created_by = models.ForeignKey(
         settings.AUTH_USER_MODEL,
         null=True, blank=True,
         on_delete=models.SET_NULL,
-        related_name="products_created",
+        related_name='products_created',
+        help_text='Кто создал карточку товара'
     )
     is_approved = models.BooleanField(default=False)
 
