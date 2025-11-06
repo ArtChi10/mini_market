@@ -21,3 +21,15 @@ class ProductStudentForm(forms.ModelForm):
         if stock < 0:
             raise forms.ValidationError("Остаток не может быть отрицательным.")
         return stock
+
+
+class ProductClaimForm(forms.ModelForm):
+    class Meta:
+        model = Product
+        fields = ["description", "image"]  # правим описание и картинку
+
+    def clean_image(self):
+        img = self.cleaned_data.get("image")
+        if img and img.size > 5 * 1024 * 1024:
+            raise forms.ValidationError("Файл слишком большой (макс. 5 МБ).")
+        return img

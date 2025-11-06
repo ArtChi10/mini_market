@@ -10,6 +10,10 @@ from django.views.generic import ListView, DetailView, CreateView
 from .forms import ProductStudentForm
 from .models import Product, Category
 from .services import run_price_tick
+from django.contrib.auth.decorators import login_required
+from django.shortcuts import get_object_or_404, redirect, render
+from .models import Product
+from .forms import ProductClaimForm
 
 
 class CatalogListView(ListView):
@@ -94,3 +98,35 @@ class MyProductsView(LoginRequiredMixin, ListView):
                 .filter(created_by=self.request.user)
                 .select_related("category")
                 .order_by("-updated_at"))
+
+
+
+
+@login_required
+def claim_product(request, pk: int):
+    product = get_object_or_404(Product, pk=pk)
+
+    # Разрешаем правку только «без автора»
+    if product.created_by_id is not None:
+        messages.error(request, "Товар уже имеет автора.")
+        return redirect(product.get_absolute_url())
+
+    # Если уже кто-то взял на модерацию — не даём перехватить
+    if product.pending_owner and product.pending_owner_id != request.user.id:
+        messages.warning(request, "Товар уже на модерации у другого пользователя.")
+        return redirect(product.get_absolute_url())
+
+    if request.method == "POST":
+        form = ProductClaimForm(request.POST, request.FILES, instance=product)
+        if form.is_valid():
+            p = form.save(commit=False)
+            p.is_approved = False
+            p.pending_owner = request.user
+            p.last_edited_by = request.user
+            p.save()
+            messages.success(request, "Изменения отправлены на модерацию.")
+            return redirect(product.get_absolute_url())
+    else:
+        form = ProductClaimForm(instance=product)
+
+    return render(request, "catalog/claim_product.html", {"product": product, "form": form})

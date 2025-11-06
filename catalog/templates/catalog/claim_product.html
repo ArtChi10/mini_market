@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}Заполнить товар — {{ product.title }}{% endblock %}
+{% block content %}
+<h1>Заполнить товар: {{ product.title }}</h1>
+<p>У товара нет автора. Добавьте описание и изображение. После отправки товар уйдёт на модерацию.</p>
+
+<form method="post" enctype="multipart/form-data" style="max-width:640px;">
+  {% csrf_token %}
+  <div style="margin-bottom:12px;">
+    <label><strong>Описание</strong></label><br>
+    {{ form.description }}
+    {{ form.description.errors }}
+  </div>
+  <div style="margin-bottom:12px;">
+    <label><strong>Изображение</strong> (необязательно)</label><br>
+    {{ form.image }}
+    {{ form.image.errors }}
+  </div>
+  <button type="submit">Отправить на модерацию</button>
+  <a href="{{ product.get_absolute_url }}" style="margin-left:10px;">Отмена</a>
+</form>
+{% endblock %}

@@ -63,6 +63,16 @@ class Product(models.Model):
 
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+    pending_owner = models.ForeignKey(
+        settings.AUTH_USER_MODEL, null=True, blank=True,
+        on_delete=models.SET_NULL, related_name="pending_products"
+    )
+    # кто правил последним (для прозрачности)
+    last_edited_by = models.ForeignKey(
+        settings.AUTH_USER_MODEL, null=True, blank=True,
+        on_delete=models.SET_NULL, related_name="product_edits"
+    )
+    last_edited_at = models.DateTimeField(auto_now=True)
 
     class Meta:
         ordering = ["title"]

@@ -13,6 +13,17 @@
   <img src="/media/products/product_placeholder.svg" alt="{{ object.title }}"
        style="max-width:320px;height:auto;border-radius:12px;object-fit:cover;margin:12px 0;">
 {% endif %}
+    {% if user.is_authenticated and product.created_by_id == None %}
+  {% if not product.pending_owner or product.pending_owner_id == user.id %}
+    <p><a href="{% url 'catalog:claim' product.pk %}">Заполнить описание и изображение</a></p>
+  {% else %}
+    <p style="color:#666;">На модерации у: {{ product.pending_owner.get_full_name|default:product.pending_owner.username }}</p>
+  {% endif %}
+{% endif %}
+
+{% if not product.is_approved %}
+  <div style="color:#b45309; margin-top:6px;">⏳ Товар на модерации</div>
+{% endif %}
 
 <p>Категория: {{ object.category.name }}</p>
 <p>Цена: <strong>{{ object.price }}</strong> мон.</p>
