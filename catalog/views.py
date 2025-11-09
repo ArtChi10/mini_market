@@ -130,3 +130,9 @@ def claim_product(request, pk: int):
         form = ProductClaimForm(instance=product)
 
     return render(request, "catalog/claim_product.html", {"product": product, "form": form})
+
+
+from django.views.generic import TemplateView
+
+class SubmittedView(TemplateView):
+    template_name = "catalog/submitted.html"

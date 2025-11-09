@@ -1,6 +1,7 @@
 from .views import CatalogListView, ProductDetailView, ProductCreateView, MyProductsView, price_tick_view
 from django.urls import path
 from .views import claim_product
+from . import views
 
 app_name = "catalog"
 urlpatterns = [
@@ -9,5 +10,8 @@ urlpatterns = [
     path("mine/", MyProductsView.as_view(), name="my"),
     path("<slug:slug>/", ProductDetailView.as_view(), name="detail"),
     path("tick/", price_tick_view, name="tick"),
-    path("products/<int:pk>/claim/", claim_product, name="claim"),# если уже есть — оставь
+    path("products/<int:pk>/claim/", claim_product, name="claim"),
+path("submitted/", views.SubmittedView.as_view(), name="submitted"),
 ]
+
+
