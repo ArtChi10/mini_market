@@ -15,14 +15,93 @@
 
     <p style="margin:0 0 12px;"><strong>Баланс:</strong> {{ request.user.profile.balance }} мон.</p>
 
-    {% if request.user.profile.google_doc_url %}
-      <p style="margin:0 0 16px;">
-        <a href="{{ request.user.profile.google_doc_url }}" target="_blank" rel="noopener">Мой документ в Google Docs →</a>
-      </p>
-        <p style="margin:0 0 16px;">
-        <a href="https://drive.google.com/drive/u/0/folders/13ov5Vr9KNpgRFUimY1o5F1mnTxBxlKvb" target="_blank" rel="noopener">Инструкции для оформления заявления</a>
-      </p>
-    {% endif %}
+    <div style="
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin: 0 0 16px;
+">
+
+  {% if request.user.profile.google_doc_url %}
+    <a href="{{ request.user.profile.google_doc_url }}" target="_blank" rel="noopener"
+       style="
+         display:inline-block;
+         padding:10px 18px;
+         background:#4F46E5;
+         color:#ffffff;
+         text-decoration:none;
+         border-radius:8px;
+         font-weight:500;
+         font-size:14px;
+       ">
+      Мой документ в Google Docs →
+    </a>
+  {% endif %}
+
+  {% if request.user.profile.resume_url %}
+    <a href="{{ request.user.profile.resume_url }}" target="_blank" rel="noopener"
+       style="
+         display:inline-block;
+         padding:10px 18px;
+         background:#10B981;
+         color:#ffffff;
+         text-decoration:none;
+         border-radius:8px;
+         font-weight:500;
+         font-size:14px;
+       ">
+      Моё резюме →
+    </a>
+  {% endif %}
+
+  {% if request.user.profile.resume_example %}
+    <a href="{{ request.user.profile.resume_example }}" target="_blank" rel="noopener"
+       style="
+         display:inline-block;
+         padding:10px 18px;
+         background:#0EA5E9;
+         color:#ffffff;
+         text-decoration:none;
+         border-radius:8px;
+         font-weight:500;
+         font-size:14px;
+       ">
+      Пример резюме →
+    </a>
+  {% endif %}
+
+  {% if request.user.profile.task_url %}
+    <a href="{{ request.user.profile.task_url }}" target="_blank" rel="noopener"
+       style="
+         display:inline-block;
+         padding:10px 18px;
+         background:#F97316;
+         color:#ffffff;
+         text-decoration:none;
+         border-radius:8px;
+         font-weight:500;
+         font-size:14px;
+       ">
+      Задание!
+    </a>
+  {% endif %}
+
+  <a href="https://drive.google.com/drive/u/0/folders/13ov5Vr9KNpgRFUimY1o5F1mnTxBxlKvb"
+     target="_blank" rel="noopener"
+     style="
+       display:inline-block;
+       padding:10px 18px;
+       background:#6B7280;
+       color:#ffffff;
+       text-decoration:none;
+       border-radius:8px;
+       font-weight:500;
+       font-size:14px;
+     ">
+    Инструкции для оформления заявления
+  </a>
+
+</div>
 
     <table style="width:100%; max-width:820px; border-collapse:collapse; font-size:14px;">
       <thead>

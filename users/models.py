@@ -10,6 +10,9 @@ class Profile(models.Model):
     balance = models.DecimalField(max_digits=10, decimal_places=2, default=Decimal("1000.00"))
     created_at = models.DateTimeField(auto_now_add=True)
     google_doc_url = models.URLField("Ссылка на документ", blank=True, default="")
+    resume_example = models.URLField("Примеры резюме", blank=True, default="")
+    resume_url = models.URLField("Моё резюме", blank=True, default="")
+    task_url = models.URLField("Ссылка на задание", blank=True, default="")
     avatar = models.ImageField(upload_to="avatars/", blank=True, null=True)
 
     def __str__(self):
