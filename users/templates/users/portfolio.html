@@ -38,6 +38,25 @@
           Задание!
         </a>
       {% endif %}
+{% if request.user.profile.can_see_task_5 and request.user.profile.task_url %}
+  <a href="{{ request.user.profile.calc_url }}"
+     target="_blank"
+     rel="noopener"
+     class="link-pill link-pill--warning">
+    Калькулятор
+  </a>
+{% endif %}
+
+   {% if request.user.profile.can_see_task_5 and request.user.profile.task_url %}
+  <a href="{{ request.user.profile.robot_url }}"
+     target="_blank"
+     rel="noopener"
+     class="link-pill link-pill--warning">
+    Программирование
+  </a>
+{% endif %}
+
+
          <a href="https://drive.google.com/drive/u/0/folders/13ov5Vr9KNpgRFUimY1o5F1mnTxBxlKvb"
          target="_blank" rel="noopener" class="link-pill link-pill--neutral">
         Инструкции для оформления заявления

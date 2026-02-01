@@ -14,6 +14,8 @@ class Profile(models.Model):
     resume_url = models.URLField("Моё резюме", blank=True, default="")
     task_url = models.URLField("Ссылка на задание", blank=True, default="")
     avatar = models.ImageField(upload_to="avatars/", blank=True, null=True)
+    calc_url = models.URLField("Ссылка на практическую работа по теме 'Калькулятор'", blank=True, default="")
+    robot_url = models.URLField("Ссылка на практическую работа по теме 'Среда программирования'", blank=True, default="")
 
     def __str__(self):
         return f"Profile({self.user.username})"
@@ -24,6 +26,18 @@ class Profile(models.Model):
         if self.avatar:
             return self.avatar.url
         return "/static/img/avatar_default.png"  # положи такую картинку в static
+
+    @property
+    def can_see_task_4(self):
+        return self.user.groups.filter(name__in=['4A', '4B']).exists()
+
+    @property
+    def can_see_task_5(self):
+        return self.user.groups.filter(name__in=['5A']).exists()
+
+    @property
+    def can_see_task_6(self):
+        return self.user.groups.filter(name__in=['6A']).exists()
 
     # лёгкое авто-сжатие (чтобы не грузили огромные фото при админ-загрузке)
     def save(self, *args, **kwargs):

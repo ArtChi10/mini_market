@@ -8,7 +8,7 @@ class ProfileAdmin(admin.ModelAdmin):
     list_display = ("user", "balance", "avatar_preview", "google_doc_url")
     search_fields = ("user__username","user__last_name","user__first_name")
     readonly_fields = ("avatar_preview",)
-    fields = ("user", "balance", "google_doc_url", "resume_url", "resume_example", "task_url", "avatar", "avatar_preview")
+    fields = ("user", "balance", "google_doc_url", "resume_url", "resume_example", "task_url", "calc_url", "avatar_preview")
 
     def avatar_preview(self, obj):
         if obj.avatar:
