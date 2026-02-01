@@ -49,6 +49,7 @@ class Product(models.Model):
 
     # контент от детей
     image = models.ImageField(upload_to="products/", blank=True, null=True)
+    qrcode = models.ImageField(upload_to="products/", blank=True, null=True)
     description = models.TextField(blank=True, default="")
     ascii_art = models.TextField(blank=True, default="")
 

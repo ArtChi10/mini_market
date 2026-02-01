@@ -1,10 +1,55 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% extends "base.html" %}
+{% block title %}История операций — {{ block.super }}{% endblock %}
+{% block content %}
+<section class="card">
+  <div class="card-header">
+    <div>
+      <h1 class="page-title">История операций</h1>
+      <p class="muted">Все покупки и продажи в вашем аккаунте.</p>
+    </div>
+    <a href="{% url 'portfolio' %}" class="button button--ghost">← Вернуться в портфель</a>
+  </div>
+<div class="table-responsive">
+    <table class="table table--striped">
+      <thead>
+        <tr>
+          <th>Дата</th>
+          <th>Товар</th>
+          <th>Тип</th>
+          <th>Кол-во</th>
+          <th>Цена</th>
+          <th>Комиссия</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for tx in object_list %}
+          <tr>
+            <td>{{ tx.created_at|date:"d.m.Y H:i" }}</td>
+            <td><a href="{{ tx.product.get_absolute_url }}">{{ tx.product.title }}</a></td>
+            <td>
+              {% if tx.type == 'BUY' %}
+                <span class="status-pill status-pill--success">Покупка</span>
+              {% elif tx.type == 'SELL' %}
+                <span class="status-pill">Продажа</span>
+              {% else %}
+                <span class="status-pill">Доход автора</span>
+              {% endif %}
+            </td>
+            <td>{{ tx.quantity }}</td>
+            <td>{{ tx.price_at_trade }} мон.</td>
+            <td>{{ tx.fee_amount }} мон.</td>
+          </tr>
+        {% empty %}
+          <tr>
+            <td colspan="6">
+              {% include "_includes/_empty_state.html" with text="История операций пока пуста." %}
+            </td>
+          </tr>
+        {% endfor %}
+      </tbody>
+    </table>
+  </div>
 
-</body>
-</html>
+  {% include "_includes/_pagination.html" %}
+</section>
+{% endblock %}

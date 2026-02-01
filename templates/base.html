@@ -8,9 +8,9 @@
   {% block head_extra %}{% endblock %}
   <link rel="stylesheet" href="{% static 'css/app.css' %}">
 </head>
-<body>
+<body class="page">
   {% include "_includes/_nav.html" %}
-  <main class="container">
+   <main class="container page__content">
     {% include "_includes/_messages.html" %}
     {% block content %}{% endblock %}
   </main>

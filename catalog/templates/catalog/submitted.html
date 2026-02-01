@@ -1,12 +1,14 @@
 {% extends "base.html" %}
 
 {% block content %}
-  <h1>Заявка отправлена на модерацию</h1>
-  <p>Спасибо! Товар отправлен учителю на проверку.
-     После одобрения он появится в каталоге.</p>
-
-  <p>
-    <a href="{% url 'portfolio' %}">Мой портфель</a> ·
-    <a href="{% url 'catalog:list' %}">Каталог</a>
-  </p>
+<section class="card hero">
+    <div>
+      <h1 class="page-title">Заявка отправлена на модерацию</h1>
+      <p class="muted">Спасибо! Товар отправлен на проверку и появится в каталоге после одобрения.</p>
+    </div>
+    <div class="hero__actions">
+      <a class="button button--primary" href="{% url 'portfolio' %}">Мой портфель</a>
+      <a class="button button--ghost" href="{% url 'catalog:list' %}">Каталог</a>
+    </div>
+  </section>
 {% endblock %}

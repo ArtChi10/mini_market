@@ -1,6 +1,15 @@
 {% extends "base.html" %}
 {% block title %}Страница не найдена — {{ block.super }}{% endblock %}
 {% block content %}
-<h1>404</h1>
-<p>Такой страницы нет.</p>
+<section class="card hero">
+  <div>
+    <p class="muted">Ошибка 404</p>
+    <h1 class="page-title">Страница не найдена</h1>
+    <p class="muted">Проверьте адрес или вернитесь к каталогу, чтобы продолжить работу.</p>
+  </div>
+  <div class="hero__actions">
+    <a class="button button--primary" href="{% url 'catalog:list' %}">Перейти в каталог</a>
+    <a class="button button--ghost" href="/">На главную</a>
+  </div>
+</section>
 {% endblock %}

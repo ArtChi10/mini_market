@@ -1,5 +1,13 @@
 {% extends "base.html" %}
 {% block content %}
-<p>Вы вышли из аккаунта.</p>
-<p><a href="{% url 'login' %}">Войти снова</a></p>
+<section class="card hero">
+  <div>
+    <h1 class="page-title">Вы вышли из аккаунта</h1>
+    <p class="muted">Возвращайтесь, когда будете готовы продолжить покупки.</p>
+  </div>
+  <div class="hero__actions">
+    <a class="button button--primary" href="{% url 'login' %}">Войти снова</a>
+    <a class="button button--ghost" href="{% url 'catalog:list' %}">Открыть каталог</a>
+  </div>
+</section>
 {% endblock %}

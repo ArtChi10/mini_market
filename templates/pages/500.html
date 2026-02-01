@@ -1,6 +1,14 @@
 {% extends "base.html" %}
 {% block title %}Ошибка сервера — {{ block.super }}{% endblock %}
 {% block content %}
-<h1>Упс...</h1>
-<p>Что-то пошло не так. Попробуйте позже.</p>
+<section class="card hero">
+  <div>
+    <p class="muted">Ошибка 500</p>
+    <h1 class="page-title">Упс... что-то пошло не так</h1>
+    <p class="muted">Мы уже разбираемся. Попробуйте обновить страницу через несколько минут.</p>
+  </div>
+  <div class="hero__actions">
+    <a class="button button--primary" href="/">На главную</a>
+  </div>
+</section>
 {% endblock %}

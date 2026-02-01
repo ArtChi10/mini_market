@@ -1,11 +1,10 @@
 {% extends "base.html" %}
 {% block title %}Новый товар — {{ block.super }}{% endblock %}
 {% block content %}
-<h1>Предложить новый товар</h1>
-<form method="post" enctype="multipart/form-data">
-  {% csrf_token %}
-  {{ form.as_p }}
-  <button type="submit">Отправить на модерацию</button>
-</form>
-<p><a href="{% url 'catalog:my' %}">Мои заявки →</a></p>
+<section class="card">
+  <h1 class="page-title">Предложить новый товар</h1>
+  <p class="muted">Заполните карточку товара, чтобы отправить её на модерацию.</p>
+  {% include "_includes/_forms.html" with form=form submit_label="Отправить на модерацию" %}
+  <p class="footer-note"><a href="{% url 'catalog:my' %}">Мои заявки →</a></p>
+</section>
 {% endblock %}

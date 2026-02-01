@@ -12,5 +12,5 @@ urlpatterns = [
     path("trade/", include(("trade.urls", "trade"), namespace="trade")),
 ]
 
-if settings.DEBUG:
+if settings.DEBUG or settings.SERVE_MEDIA:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

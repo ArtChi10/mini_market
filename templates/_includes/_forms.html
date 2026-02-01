@@ -3,13 +3,15 @@
 {% endcomment %}
 
 {% if form.non_field_errors %}
-  <div class="errors">
+  <div class="msg error">
     {{ form.non_field_errors }}
   </div>
 {% endif %}
 
-<form method="post" enctype="multipart/form-data">
+<form method="post" enctype="multipart/form-data" class="form">
   {% csrf_token %}
   {{ form.as_p }}
-  <button type="submit">{{ submit_label|default:"Отправить" }}</button>
+    <div class="form-actions">
+    <button type="submit" class="button button--primary">{{ submit_label|default:"Отправить" }}</button>
+  </div>
 </form>
