@@ -55,6 +55,14 @@
     Программирование
   </a>
 {% endif %}
+{% if request.user.profile.can_see_task_5 and request.user.profile.info_search_url %}
+  <a href="{{ request.user.profile.info_search_url }}"
+     target="_blank"
+     rel="noopener"
+     class="link-pill link-pill--warning">
+    Поиск информации
+  </a>
+{% endif %}
 
 
          <a href="https://drive.google.com/drive/u/0/folders/13ov5Vr9KNpgRFUimY1o5F1mnTxBxlKvb"

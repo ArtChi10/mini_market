@@ -16,6 +16,9 @@ class Profile(models.Model):
     avatar = models.ImageField(upload_to="avatars/", blank=True, null=True)
     calc_url = models.URLField("Ссылка на практическую работа по теме 'Калькулятор'", blank=True, default="")
     robot_url = models.URLField("Ссылка на практическую работа по теме 'Среда программирования'", blank=True, default="")
+    info_search_url = models.URLField("Ссылка на задание 'Поиск информации'", blank=True, default="")
+
+
 
     def __str__(self):
         return f"Profile({self.user.username})"
